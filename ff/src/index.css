@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-legacy-blue: #2C5F93;
+  --color-legacy-header-bg: #e1e1f6;
+  --color-legacy-row-bg: #FFFFFF;
+  --color-legacy-alt-row-bg: #F5F5F5;
+  --color-legacy-border: #336699;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+  font-size: 12px;
+}
+
+.legacy-table th {
+  background-color: var(--color-legacy-blue);
+  color: white;
+  padding: 4px 8px;
+  text-align: left;
+  border: 1px solid #336699;
+  font-weight: bold;
+}
+
+.legacy-table td {
+  padding: 4px 8px;
+  border: 1px solid #CCCCCC;
+}
+
+.legacy-header-cell {
+  background-color: var(--color-legacy-header-bg);
+  border: 1px solid #e1e1f6;
+  padding: 3px;
+  font-size: 11px;
+}

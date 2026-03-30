@@ -1,0 +1,5 @@
+{
+  "name": "Transaction Report System",
+  "description": "A legacy-style transaction report application with fake data for scraping practice.",
+  "requestFramePermissions": []
+}
